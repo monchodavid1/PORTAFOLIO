@@ -48,7 +48,7 @@ h1, h2, h3, h4, h5, h6 {
     display: flex;
     align-items: center;
     z-index: 997;
-    overflow-y: auto;
+    
 }
   
 #header * {
@@ -129,12 +129,6 @@ h1, h2, h3, h4, h5, h6 {
       flex-direction: column;
       align-items: center;
     }
-}
-:root{
-    --facebook: #3b5999;
-    --instagram: #e4405f;
-    --twitter: #55acee;
-    --linkedin: #007785;
 }
 
 /*--------------------------------------------------------------
@@ -220,7 +214,6 @@ h1, h2, h3, h4, h5, h6 {
     bottom: 15px;
     left: 15px;
     z-index: 9999;
-    overflow-y: auto;
     background: rgba(0, 0, 0, 0.7);
     transition: ease-in-out 0.2s;
     opacity: 0;
