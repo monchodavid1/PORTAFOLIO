@@ -406,6 +406,95 @@ section .container {
     
 }
 
+/*--------------------------------------------------------------
+# Skills
+--------------------------------------------------------------*/
+*{
+    list-style: none;
+}
+.skills{
+    /* background: #333; */
+    width: 90%;
+    color: white;
+
+}
+
+.skills h1{
+    color: #0000ff;
+
+}
+.skills li{
+    margin: 20px 0;
+    padding: 5px;
+}
+.bar{
+    background: #353b48;
+    display:block;
+    height: 2px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 3px;
+    overflow: hidden;
+    box-shadow: 0 0 10px #2187e7b3;
+}
+.bar span{
+    height: 2px;
+    float: left;
+    background: white;
+}
+
+.html{
+    width: 90%;
+    animation: html 2s;
+}
+
+.css{
+    width: 65%;
+    animation: css 2s;
+}
+.javascript{
+    width: 50%;
+    animation: javascript 2s;
+}
+
+.python{
+    width: 30%;
+    animation: python 2s;
+}
+
+@keyframes html {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 90%;
+    }
+}
+@keyframes css {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 65%;
+    }
+}
+@keyframes javascript {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 50%;
+    }
+}
+@keyframes python {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 30%;
+    }
+}
+
+
 /* contactooo */
 
 .container {
